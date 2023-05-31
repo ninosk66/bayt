@@ -11,28 +11,30 @@ const Header = () => {
   };
 
   return (
-    
-      <header>
-        <div className='logo'>BAYT</div>
-        <nav>
-          {/* Navigation menu */}
-          <ul>
-            <li>
-              <Link to='/' className="link">Home</Link>
-            </li>
-            <li>
-              <Link to='/about' className="link">About</Link>
-            </li>
-          </ul>
-        </nav>
-        <button className='language-button' onClick={toggleLanguage}>
-          {isArabic ? "English" : "العربية"}
-        </button>
-        <Link to='/login' className='login-button'>
-          Log In
-        </Link>
-      </header>
-    
+    <header>
+      <div className="logo">BAYtT</div>
+      <nav>
+        {/* Navigation menu */}
+        <ul>
+          <li>
+            <Link to="/" className="link">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="link">
+              About
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <button className="language-button" onClick={toggleLanguage}>
+        {isArabic ? "English" : "العربية"}
+      </button>
+      <Link to="/login" className="login-button">
+        Log In
+      </Link>
+    </header>
   );
 };
 
