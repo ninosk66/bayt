@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* properties.css */
+
+.properties {
+  padding: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.property-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.property {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.property .address {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.property .bedrooms,
+.property .bathrooms,
+.property .size,
+.property .price {
+  margin-bottom: 5px;
+}
+
+.property .price {
+  font-weight: bold;
+}
+
+.property .contact {
+  color: #666;
+  font-style: italic;
+}
+
+/* navbar styling */
+/* header.css */
+
+header {
+  background-color: #313f47;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+button{
+  margin: 5px;
+}
+.login-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}
